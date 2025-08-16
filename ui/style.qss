@@ -1,0 +1,48 @@
+QMainWindow {
+    background-color: #FFFFFF;
+    font-family: 'Segoe UI';
+    font-size: 11pt;
+}
+
+QLabel {
+    color: #333333;
+    font-weight: bold;
+}
+
+QPushButton {
+    background-color: #C62828;
+    color: white;
+    border-radius: 6px;
+    padding: 6px 12px;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #E53935;
+}
+
+QPushButton:disabled {
+    background-color: #BDBDBD;
+    color: #EEEEEE;
+}
+
+QComboBox {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: white;
+}
+
+QLineEdit, QTextEdit {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: white;
+    color: black;
+}
+
+QTextEdit#logViewer {
+    background-color: #FAFAFA;
+    border: 1px solid #E0E0E0;
+    font-family: Consolas, monospace;
+}
